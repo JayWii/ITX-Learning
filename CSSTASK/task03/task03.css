@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    font-family: "Hiragino Sans GB W3";
+}
+
+@media screen and (max-width:540px) {
+    .page {
+        font-size: 60%;
+    }
+    .content p {
+    	font-size: 60%;
+    }
+    /*通过判断屏幕分辨率的大小，缩放字体的目的*/
+}
+
+.page {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #22292c;
+    width: 100%;
+    height: 12.7%;
+    position: relative;
+    overflow: hidden;
+}
+
+.tit {
+    padding: 3% 0;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+#back_arrow {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#more {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.tit span {
+    display: inline-block;
+    font-size: 200%;
+    color: #fff;
+}
+
+.content {
+    background-color: #68cdd5;
+    position: relative;
+}
+
+#backbtn {
+	display: block;
+	width: 8.593%;
+    padding-top: 2.968%;
+	padding-left: 5.156%;
+}
+#logo {
+	width: 28.28%;
+	padding-top: 6.56%;
+	padding-left: 30.93%;
+}
+.content p{
+	padding-top: 17.656%;
+	padding-bottom: 28%;
+	margin-left: 14%;
+	margin-right: 15.6%;
+	color: #fff;
+	font-size: 200%;
+	line-height: 200%;
+}
+#img01 {
+	width: 13.125%;
+	padding-left: 21.875%;
+	padding-bottom: 39%;
+}
+#img02 {
+	width: 13.125%;
+	float: right;
+	padding-right: 21.875%;
+	padding-bottom: 39%;
+}

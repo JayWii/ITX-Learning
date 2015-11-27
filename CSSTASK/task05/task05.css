@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    font-size: 100%;
+    font-family: "Hiragino Sans GB W3";
+}
+@media screen and (max-width: 550px) {
+	.wrapper {
+        font-size: 60%;
+    }
+}
+.wrapper {
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+header {
+	background-color: #29bde0;
+	line-height: 0;
+}
+#menu {
+	width: 11.7%;
+}
+.content {
+	background-color: #f0f0f0;
+	overflow: hidden;
+}
+.gameHistory {
+	width: 90%;
+	background-color: #fff;
+	margin: 4% 0 0 5.3%;
+	text-align: center;
+	overflow: hidden;
+}
+.gameHistory h1 {
+	padding: 6% 0;
+	font-weight: normal;
+	color: #9a9a9a;
+	overflow: hidden;
+}
+.gameHistory img {
+	float: right;
+}
+.gameList {
+	width: 90%;
+	background-color: #fff;
+	margin: 4% 0 9% 5.3%;
+}
+.title {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #fbb435;
+	color: #fbb435;
+	overflow: hidden;
+}
+.title h1 {
+	font-weight: normal;
+	margin: 3.5% 0;
+}
+.mode {
+	margin: 4% 0 0;
+	text-align: center;
+}
+.mode p {
+	margin: 4% 0 0;
+	color: #787878;
+	font-size: 130%;
+}
+.btn {
+	width: 80%;
+	margin: 0 10%;
+	padding: 7.8% 0;
+	text-align: center;
+	background-color: #69d1e9;
+	color: #fff;
+	font-size: 200%;
+}
+.btnCenter {
+	position: relative;
+}
+#go {
+	position: absolute;
+	width: 10.7%;
+	top: 0;
+	right: -10.7%;
+}
+#page {
+	width: 100%;
+	margin: 0 auto;
+}
