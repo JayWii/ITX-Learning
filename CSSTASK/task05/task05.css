@@ -1,92 +1,169 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 html {
     font-size: 100%;
     font-family: "Hiragino Sans GB W3";
 }
+
 @media screen and (max-width: 550px) {
-	.wrapper {
-        font-size: 60%;
+    .wrapper {
+        font-size: 80%;
     }
 }
+
 .wrapper {
-	width: 100%;
-	max-width: 640px;
-	margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
+
 header {
-	background-color: #29bde0;
-	line-height: 0;
+    background-color: #29bde0;
+    line-height: 0;
 }
-#menu {
-	width: 11.7%;
+
+#home-menu {
+    cursor: pointer;
+    width: 11.7%;
 }
+
 .content {
-	background-color: #f0f0f0;
-	overflow: hidden;
+    background-color: #f0f0f0;
+    overflow: hidden;
 }
+
 .gameHistory {
-	width: 90%;
-	background-color: #fff;
-	margin: 4% 0 0 5.3%;
-	text-align: center;
-	overflow: hidden;
+    width: 90%;
+    background-color: #fff;
+    margin: 4% 0 0 5.3%;
+    text-align: center;
+    overflow: hidden;
 }
+
 .gameHistory h1 {
-	padding: 6% 0;
-	font-weight: normal;
-	color: #9a9a9a;
-	overflow: hidden;
+    padding: 8% 0;
+    font-weight: normal;
+    color: #9a9a9a;
+    overflow: hidden;
 }
+
 .gameHistory img {
-	float: right;
+    float: right;
+    width: 10.7%;
 }
+
 .gameList {
-	width: 90%;
-	background-color: #fff;
-	margin: 4% 0 9% 5.3%;
+    width: 90%;
+    background-color: #fff;
+    margin: 4% 0 9% 5.3%;
 }
+
 .title {
-	width: 100%;
-	text-align: center;
-	border-bottom: 1px solid #fbb435;
-	color: #fbb435;
-	overflow: hidden;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #fbb435;
+    color: #fbb435;
+    overflow: hidden;
 }
+
 .title h1 {
-	font-weight: normal;
-	margin: 3.5% 0;
+    font-weight: normal;
+    margin: 3.5% 0;
 }
+
 .mode {
-	margin: 4% 0 0;
-	text-align: center;
+    margin: 4% 0 0;
+    text-align: center;
 }
+
 .mode p {
-	margin: 4% 0 0;
-	color: #787878;
-	font-size: 130%;
+    margin: 4% 0 0;
+    color: #787878;
+    font-size: 130%;
 }
+
 .btn {
-	width: 80%;
-	margin: 0 10%;
-	padding: 7.8% 0;
-	text-align: center;
-	background-color: #69d1e9;
-	color: #fff;
-	font-size: 200%;
+    width: 80%;
+    margin: 0 10%;
+    padding: 7.8% 0;
+    text-align: center;
+    background-color: #69d1e9;
+    color: #fff;
+    font-size: 200%;
 }
+
 .btnCenter {
-	position: relative;
+    position: relative;
 }
+
 #go {
-	position: absolute;
-	width: 10.7%;
-	top: 0;
-	right: -10.7%;
+    position: absolute;
+    width: 10.7%;
+    top: 0;
+    right: -10.7%;
 }
+
 #page {
-	width: 100%;
-	margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
+nav {
+	background-color: #fff;
+	max-width: 492px;
+	width: 76.8%;
+}
+.menu-list {
+	text-align: left;
+	overflow: hidden;
+	font-size: 200%;
+	color: #29bde0;
+	border-bottom: 1px solid #d6d6d6;
+}
+.menu-list 	img {
+	display: inline-block;
+}
+.menu-list p {
+	overflow: hidden;
+	padding: 3.4% 0;
+}
+.menu-list-left {
+	float: left;
+	width: 13.6%;
+}
+.menu-list-more {
+	float: right;
+	margin-right: 6.7%;
+	width: 10.9%;
+}
+.slideout-menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+
+.slideout-panel {
+    position: relative;
+    z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
+
