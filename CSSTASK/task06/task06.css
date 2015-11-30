@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    font-size: 100%;
+    font-family: "Hiragino Sans GB W3";
+}
+@media screen and (max-width: 550px) {
+	.wrapper{
+		font-size: 60%;
+	}
+}
+@media screen and (max-width: 340px) {
+	.wrapper{
+		font-size: 40%;
+	}
+}
+.wrapper {
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #29bde0;
+}
+header {
+	overflow: hidden;
+	background-color: #29bde0;
+}
+#menu {
+	float: left;
+	width: 12.5%;
+}
+#close {
+	float: right;
+	width: 12.8%;
+}
+header h2 {
+	padding: 5% 0 1%;
+	overflow: hidden;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+	font-size: 200%;
+}
+.music {
+	background-color: #b9e9f5;
+	position: relative;
+}
+.music p {
+	display: inline-block;
+	font-size: 130%;
+    padding: 4% 0 4% 5%;
+}
+#play {
+	float: right;
+	margin-right: 3%;
+    padding: 2% 0;
+    width: 8.6%;
+}
+#more {
+    position: absolute;
+    bottom: -17%;
+    left: 7.8%;
+}
+#notice{
+    color: #fff;
+    margin: 2% 0 2% 7%;
+    font-size: 120%
+}
+.rule-wrap {
+	margin: 5% 0 0;
+	overflow: hidden;
+}
+.rule {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-bottom: 13%;
+}
+.mes {
+	display: inline-block;
+	width: 65.7%;
+	border: 0.4rem solid #fff;
+}
+.name {
+	background-color: #f5c97b;
+    font-size: 200%;
+    color: #565656;
+    padding: 25%;
+}
+.number {
+    background-color: #83b09a;
+    color: #fff;
+    font-size: 150%;
+}
+.options {
+	margin: 10% 0;
+}
+.rule-first {
+	margin-bottom: 0;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	max-width: 640px;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+}
+footer div {
+	display: inline-block;
+	width: 77%;
+	text-align: center;
+	font-size: 250%;
+    color: #fff;
+    background-color: #fbb435;
+    margin: 5% 0;
+    padding: 3%;
+}
+.icon {
+	width: 14%;
+}
+
+
+
+
+
+
+
+
