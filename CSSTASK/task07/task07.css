@@ -346,6 +346,7 @@ header {
 }
 
 .link ul li {
+	font-size: 80%;
     float: left;
     width: 61px;
     padding-right: 59px;
