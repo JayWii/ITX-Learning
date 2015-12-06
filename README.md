@@ -17,6 +17,10 @@
 * [task03](http://jaywii.github.io/private/ITX/CSSTASK/task03/task03.html)
 * [task04](http://jaywii.github.io/private/ITX/CSSTASK/task04/task04.html)
 * [task05](http://jaywii.github.io/private/ITX/CSSTASK/task05/task05.html)
+* [task06](http://139.129.19.123/CSSTASK/task06/task06WithSprite.html)
+* [task07](http://139.129.19.123/CSSTASK/task07/task07.html)
+* [task08](http://139.129.19.123/CSSTASK/task08/task08.html)
+* [task09](http://139.129.19.123/CSSTASK/task09/task09.html)
 
 ###Task  1
 
