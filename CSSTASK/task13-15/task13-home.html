@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="task13-home.css"/>
+    <title>task13-home</title>
+</head>
+<body>
+        <header>
+            <div class="service">
+                <div class="container">
+                    <p class="nav navbar-left">客服热线：010-594-78634</p>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <img src="images/weibo.png" id="weibo">
+                        </li>
+                        <li>
+                            <img src="images/qq.png" id="qq">
+                        </li>
+                        <li>
+                            <img src="images/weixin.png" id="weixin">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-nav">
+                <nav class="container">
+                    <div class="navbar-header navbar-default navbar-green">
+                            <button type="button" class="navbar-toggle navbar-green" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                    </div>
+                    <div style="" aria-expanded="false" id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav dropdown-ul">
+                            <li class="active"><a href="task13-home.html">首        页</a></li>
+                            <li><a href="task13-profession.html">职        业</a></li>
+                            <li><a href="#">推        荐</a></li>
+                            <li><a href="task13-partner.html">关        于</a></li>
+                        </ul>
+                    </div>
+                    <ul class="nav navbar-nav navbar-collapse collapse main-ul">
+                        <li><a href="task13-home.html">首页</a></li>
+                        <li><a href="task13-profession.html">职业</a></li>
+                        <li><a href="#">推荐</a></li>
+                        <li><a href="task13-partner.html">关于</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="first-slide" src="images/banner-1.png" alt="First slide">
+                </div>
+                <div class="item">
+                    <img class="second-slide" src="images/banner-2.png" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img class="third-slide" src="images/banner-3.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <img src="images/prev.png" alt=""/>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <img src="images/next.png" alt=""/>
+            </a>
+        </div>
+        <!-- /.carousel -->
+        <div class="container">
+            <div class="intro row">
+                <div class="intro-item col-lg-3 col-sm-6 col-xs-12">
+                    <div class="item-logo">
+                        <img src="images/rocket.png" height="62" width="43" alt="">
+                    </div>
+                    <div class="item-title">高效</div>
+                    <div class="item-explain">将五到七年的成长时间，缩短到一年到三年。</div>
+                </div>
+                <div class="intro-item col-lg-3 col-sm-6 col-xs-12">
+                    <div class="item-logo">
+                        <img src="images/norm.png" height="48" width="60" alt="">
+                    </div>
+                    <div class="item-title">规范</div>
+                    <div class="item-explain">标准的实战教程，不会走弯路</div>
+                </div>
+                <div class="intro-item col-lg-3 col-sm-6 col-xs-12">
+                    <div class="item-logo">
+                        <img src="images/relationship.png" height="55" width="52" alt="">
+                    </div>
+                    <div class="item-title">人脉</div>
+                    <div class="item-explain">同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。</div>
+                </div>
+                <div class="intro-item intro-item-last  col-lg-3 col-sm-6 col-xs-12">
+                    <div class="item-logo">
+                        <div class="item-logo-last"></div>
+                    </div>
+                    <div class="item-peopleAndjob">
+                        <div class="num">
+                            <img src="images/user.png" height="13" width="13" alt=""> 12400
+                        </div>
+                        <p>累计在线学习人数</p>
+                    </div>
+                    <div class="item-peopleAndjob">
+                        <div class="num">
+                            <img src="images/user.png" height="13" width="13" alt=""> 12400
+                        </div>
+                        <p>学员已经找到满意工作</p>
+                    </div>
+                </div>
+            </div>
+            <div class="learn-wrap row">
+                <h3 class="learn-title">如何学习</h3>
+                <div class="learn-step">
+                    <div class="row">
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>1</span>
+                                    </td>
+                                    <td>
+                                        <p>匹配你现在的个人情况寻找适合自己的岗位</p>
+                                    </td>
+                                    <td>
+                                        <img src="images/go.png" height="30" width="32" alt="">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>2</span>
+                                    </td>
+                                    <td>
+                                        <p>了解职业前景薪金待遇、竞争压力等</p>
+                                    </td>
+                                    <td>
+                                        <img src="images/go.png" height="30" width="32" alt="">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>3</span>
+                                    </td>
+                                    <td>
+                                        <p>掌握行业内顶级技能</p>
+                                    </td>
+                                    <td>
+                                        <img src="images/go.png" height="30" width="32" alt="">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>4</span>
+                                    </td>
+                                    <td>
+                                        <p>查看职业目标任务</p>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>5</span>
+                                    </td>
+                                    <td>
+                                        <p>参考学习资源，掌握技能点，逐个完成任务</p>
+                                    </td>
+                                    <td>
+                                        <img src="images/go.png" height="30" width="32" alt="">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>6</span>
+                                    </td>
+                                    <td>
+                                        <p>加入班级，和小伙伴们互帮互助，一块学习</p>
+                                    </td>
+                                    <td>
+                                        <img src="images/go.png" height="30" width="32" alt="">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>7</span>
+                                    </td>
+                                    <td>
+                                        <p>选择导师，一路引导，加速自己成长</p>
+                                    </td>
+                                    <td>
+                                        <img src="images/go.png" height="30" width="32" alt="">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="step col-md-3 col-sm-6 col-xs-12">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span>8</span>
+                                    </td>
+                                    <td>
+                                        <p>完成职业技能，升级业界大牛</p>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="student-wrap">
+                <h3>优秀学员展示</h3>
+                <div class="student row">
+                    <div class="mes-wrap col-lg-3 col-md-6 col-sm-6">
+                        <div class="student-mes">
+                            <img class="avatar" src="images/Avatar1.png">
+                            <h3>技术顾问：罗大佑</h3>
+                            <p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+                        </div>
+                    </div>
+                    <div class="mes-wrap col-lg-3 col-md-6 col-sm-6">
+                        <div class="student-mes">
+                            <img class="avatar" src="images/Avatar2.png">
+                            <h3>技术顾问：罗大佑</h3>
+                            <p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+                        </div>
+                    </div>
+                    <div class="mes-wrap col-lg-3 col-md-6 col-sm-6">
+                        <div class="student-mes">
+                            <img class="avatar" src="images/Avatar3.png">
+                            <h3>技术顾问：罗大佑</h3>
+                            <p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+                        </div>
+                    </div>
+                    <div class="mes-wrap col-lg-3 col-md-6 col-sm-6">
+                        <div class="student-mes">
+                            <img class="avatar" src="images/avatar4.png">
+                            <h3>技术顾问：罗大佑</h3>
+                            <p>百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="dot" style="background-color:#29b078"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <div class="partner-wrap">
+                <h3>战略合作企业</h3>
+                <div class="partner">
+                    <div class="partnerImg">
+                        <img src="images/alibaba.png" height="53" width="144" alt="">
+                    </div>
+                    <div class="partnerImg">
+                        <img src="images/jinshan.png" height="58" width="53" alt="">
+                    </div>
+                    <div class="partnerImg">
+                        <img src="images/huanxin.png" height="69" width="134" alt="">
+                    </div>
+                    <div class="partnerImg">
+                        <img src="images/ronglian.png" height="38" width="169" alt="">
+                    </div>
+                    <div class="partnerImg">
+                        <img src="images/qiniuyun.png" height="56" width="124" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <h3>友情链接</h3>
+            <div class="container">
+                <ul>
+                    <li>手机软件</li>
+                    <li>教师招聘</li>
+                    <li>找工作</li>
+                    <li>教师招聘</li>
+                    <li>找工作</li>
+                    <li>手机软件</li>
+                    <li>手机软件</li>
+                    <li>教师招聘</li>
+                    <li>找工作</li>
+                    <li>教师招聘</li>
+                    <li>手机软件</li>
+                    <li>教师招聘</li>
+                    <li>找工作</li>
+                    <li>教师招聘</li>
+                    <li>找工作</li>
+                    <li>手机软件</li>
+                    <li>手机软件</li>
+                    <li>教师招聘</li>
+                    <li>找工作</li>
+                    <li>教师招聘</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="about container">
+                <div class="row">
+                    <div class="footer-left">
+                        <h3>技能树—改变你我</h3>
+                        <p>关于我们 | 联系我们 | 友情链接</p>
+                    </div>
+                    <div class="footer-center">
+                        <h3>旗下网站</h3>
+                        <span>草船云孵化器</span>
+                        <span>最强IT特训营</span>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>葡萄藤轻游戏</span>
+                        <span>桌游精灵</span>
+                    </div>
+                    <div class="footer-right">
+                        <div class="qrWrap">
+                            <span>微信公众平台</span>
+                            <img src="images/QR.png" height="92" width="92" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright"> Copyright © 2015技能树 www.jnshu.com All Rights Reserved | 京ICP</div>
+        </footer>
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.js"></script>
+</body>
+</html>

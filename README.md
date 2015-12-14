@@ -13,14 +13,19 @@
 
 
 ###我的Demo:
-* [task01](http://jaywii.github.io/private/ITX/CSSTASK/task01/task01.html)
-* [task03](http://jaywii.github.io/private/ITX/CSSTASK/task03/task03.html)
-* [task04](http://jaywii.github.io/private/ITX/CSSTASK/task04/task04.html)
-* [task05](http://jaywii.github.io/private/ITX/CSSTASK/task05/task05.html)
+* [task01](http://139.129.19.123/CSSTASK/task01/task01.html)
+* [task03](http://139.129.19.123/CSSTASK/task03/task03.html)
+* [task04](http://139.129.19.123/CSSTASK/task04/task04.html)
+* [task05](http://139.129.19.123/CSSTASK/task05/task05.html)
 * [task06](http://139.129.19.123/CSSTASK/task06/task06WithSprite.html)
 * [task07](http://139.129.19.123/CSSTASK/task07/task07.html)
 * [task08](http://139.129.19.123/CSSTASK/task08/task08.html)
-* [task09](http://139.129.19.123/CSSTASK/task09/task09.html)
+* [task09](http://139.129.19.123/CSSTASK/task09/task09.html) 
+* [task10](http://139.129.19.123/CSSTASK/task10/task10.html)
+* [task11](http://139.129.19.123/CSSTASK/task11/task11.html)
+* [task12](http://139.129.19.123/CSSTASK/task12/task12.html)
+* [task13-15](http://139.129.19.123/CSSTASK/task13/task13-home.html)
+
 
 ###Task  1
 
